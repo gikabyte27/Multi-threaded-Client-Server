@@ -12,7 +12,7 @@ The server is built in `python`, while the client uses `powershell` as the progr
 
 ## Installation
 
-1. Generate your own private key:
+1. Generate your own certificate and private key:
 ```
 openssl req -x509 -newkey rsa:4096 -keyout server.key -out server.crt -days 365 -nodes -subj "/CN=localhost"
 ```
