@@ -6,7 +6,7 @@
 
 ## Overview
 
-This small project is a [client-server] communication using SSL encryption with a custom generated key. It uses [TCP] communication over TLS with multi-threading capabilities - each new client will have assigned a separate thread to ensure non-blocking execution
+This small project is a **client-server** communication using **SSL encryption** with a custom generated key. It uses **TCP** communication over TLS with multi-threading capabilities - each new client will have assigned a separate thread to ensure non-blocking execution
 
 The server is built in `python`, while the client uses `powershell` as the programming language.
 
